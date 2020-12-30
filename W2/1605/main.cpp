@@ -26,6 +26,36 @@ void printMenu()
 
 }
 
+void printHelp()
+{
+        std::cout << "Help - your aim is to make money. " << std::endl;
+}
+
+void printMarketStats()
+{
+    std::cout << "Help - your aim is to make money. " << std::endl;
+}
+
+void enterOffer()
+{
+    std::cout << "Help - your aim is to make money. " << std::endl;
+}
+
+void enterBid()
+{
+    std::cout << "Help - your aim is to make money. " << std::endl;
+}
+
+void printWallet()
+{
+    std::cout << "Invalid" << std::endl;
+}
+
+void gotoNextTimeFrame()
+{
+    std::cout << "Invalid" << std::endl;
+}
+
 int getUserOption()
 {
     int userOption;
@@ -39,59 +69,39 @@ void processUserOption(int userOption)
 
 {
     if(userOption == 0) // bad input
-
     {
-
         std::cout << "Invalid" << std::endl;
-
     }
 
     if(userOption == 1) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        printHelp();
     }
 
     if(userOption == 2) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        printMarketStats();
     }
 
     if(userOption == 3) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        enterOffer();
     }
 
     if(userOption == 4) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        enterBid();
     }
 
     if(userOption == 5) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        printWallet();
     }
 
+
     if(userOption == 6) // bad input
-
     {
-
-        std::cout << "Invalid" << std::endl;
-
+        gotoNextTimeFrame();
     }
 
 }
