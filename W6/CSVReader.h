@@ -2,7 +2,7 @@
 
 #include "OrderBookEntry.h"
 #include <vector>
-#include <strings>
+#include <string>
 
 class CSVReader
 {
@@ -12,7 +12,7 @@ class CSVReader
 
     private:
         static std::vector<std::string> tokenise(std::string csvLine, char separator);
-        static OrderBookEntry stringsToBE(std::vector<std::string> strings);
+        static OrderBookEntry stringsToOBE(std::vector<std::string> strings);
         
 
 };
