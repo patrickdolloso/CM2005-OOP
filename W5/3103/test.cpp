@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <fstream>
 
 std::vector<std::string> tokenise(std::string csvLine, char separator)
 {
@@ -45,6 +46,4 @@ int main()
     {
         std::cout << t << std::endl;
     }
-
-    return 0;
 }
